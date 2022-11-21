@@ -19,7 +19,7 @@ export default function AddPost() {
     setForm({...form, [e.target.name]: e.target.value})
   }
 
-  console.log(form)
+  // console.log(form)
 
   return (
     <div className="container">
